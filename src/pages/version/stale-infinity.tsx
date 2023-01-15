@@ -1,7 +1,7 @@
 import styled from '@emotion/styled'
-import BorderContainer from '@src/components/common/border-container/BorderContainer'
-import Container from '@src/components/common/container/Container'
-import Header from '@src/components/common/header/Header'
+import BorderContainer from '@src/common/components/border-container/BorderContainer'
+import Container from '@src/common/components/container/Container'
+import Header from '@src/common/components/header/Header'
 import { usePokemon } from '@src/hooks/usePokemon'
 
 const StaleTimeInfinityPage = () => {

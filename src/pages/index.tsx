@@ -1,9 +1,9 @@
 import styled from '@emotion/styled'
 import { urls } from '@src/common/constants/urls'
-import BorderContainer from '@src/components/common/border-container/BorderContainer'
-import Button from '@src/components/common/button/Button'
-import Container from '@src/components/common/container/Container'
-import Header from '@src/components/common/header/Header'
+import BorderContainer from '@src/common/components/border-container/BorderContainer'
+import Button from '@src/common/components/button/Button'
+import Container from '@src/common/components/container/Container'
+import Header from '@src/common/components/header/Header'
 import Link from 'next/link'
 
 export default function Home() {
