@@ -25,7 +25,7 @@ const Header = ({ title, hasGoHomeIcon = true, hasGoBackIcon }: Props) => {
           <Arrow>&lt;Back</Arrow>
         </BackWrapper>
       )}
-      <Title>{title}</Title>
+      <HeaderTitle>{title}</HeaderTitle>
     </Wrapper>
   )
 }
@@ -42,7 +42,7 @@ const Arrow = styled.span`
   font-size: x-large;
 `
 
-const Title = styled.span`
+const HeaderTitle = styled.span`
   font-weight: 700;
   font-size: x-large;
   display: flex;

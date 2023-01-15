@@ -9,7 +9,7 @@ type Props = {
 
 const BorderContainer = ({
   width = '500px',
-  height = '500px',
+  height = 'fit-content',
   children,
 }: Props) => {
   return (

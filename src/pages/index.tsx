@@ -19,6 +19,9 @@ export default function Home() {
           <Link href={urls.version.staleInfinity}>
             <Button>Staletime: Infinity</Button>
           </Link>
+          <Link href={urls.version.destructuring}>
+            <Button>Destructuring</Button>
+          </Link>
           <Link href={urls.version.pagination}>
             <Button>Pagination</Button>
           </Link>

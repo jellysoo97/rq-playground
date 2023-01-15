@@ -20,7 +20,7 @@ const StaleTimeInfinityPage = () => {
 
   return (
     <Container>
-      <BorderContainer width="700px" height="fit-content">
+      <BorderContainer width="700px">
         <Header title={'React Query Status'} />
         <Wrapper>
           <BorderContainer width="600px" height="100px">
