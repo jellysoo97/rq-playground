@@ -25,6 +25,9 @@ const DestructuringPage = () => {
     <Container>
       <BorderContainer width="fit-content">
         <Header title="Destructuring" hasGoBackIcon hasGoHomeIcon={false} />
+        <ItalicParagraph>
+          once you split apart, it can't keep track of the relationship any more
+        </ItalicParagraph>
         <Wrapper>
           <BorderContainer width="fit-content" height="100%">
             <BoldParagraph>Undestructured Data</BoldParagraph>
@@ -61,6 +64,12 @@ const Wrapper = styled.div`
   display: flex;
   column-gap: 30px;
   padding: 15px 0px;
+`
+
+const ItalicParagraph = styled.p`
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 500;
 `
 
 const BoldParagraph = styled.p`
